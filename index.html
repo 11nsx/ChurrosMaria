@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churros da Maria</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+
+    <nav id="nav">
+        <a href="#hero" class="nav-logo">Churros da Maria</a>
+        <ul class="nav-links">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sabores">Informações Adicionais</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#contato" class="nav-cta">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-bg-text">CHURROS</div>
+        <div id="particles"></div>
+
+        <div class="hero-content">
+            <span class="hero-badge">Artesanal desde 2025</span>
+            <h1 class="hero-title">
+                O verdadeiro<br />
+                <em>sabor de sempre</em>
+            </h1>
+            <p class="hero-sub">
+                Churros feitos na hora, crocantes por fora e macios por dentro, com recheios que conquistam desde a
+                primeira mordida.
+            </p>
+            <div class="hero-actions">
+                <a href="#sabores" class="btn-primary">Ver Cardápio →</a>
+                <a href="#sobre" class="btn-ghost">Nossa história</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sabores">
+        <div class="sabores-container">
+            <div class="reveal">
+                <p class="section-label">Nossos sabores</p>
+                <h2 class="section-title">Escolha o seu<br /><em>favorito</em></h2>
+                <p class="section-sub">Cada churro é preparado com ingredientes selecionados e muito amor.</p>
+            </div>
+            <div class="sabores-grid reveal">
+                <div class="sabor-card">
+                    <span class="sabor-tag">Clássico</span>
+                    <span class="sabor-emoji">🤎</span>
+                    <h3 class="sabor-name">Churro Tradicional</h3>
+                    <p class="sabor-desc">Massa frita na hora, coberta com açúcar e canela. A receita original que não
+                        sai de moda.</p>
+                    <span class="sabor-price">R$ 8,00</span>
+                </div>
+                <div class="sabor-card">
+                    <span class="sabor-tag" style="background:#C4641A">Especial</span>
+                    <span class="sabor-emoji">🍫</span>
+                    <h3 class="sabor-name">Recheado de Chocolate</h3>
+                    <p class="sabor-desc">Crocante por fora, um coração derretido de chocolate ao leite belga por
+                        dentro.</p>
+                    <span class="sabor-price">R$ 12,00</span>
+                </div>
+                <div class="sabor-card">
+                    <span class="sabor-tag new">Novo</span>
+                    <span class="sabor-emoji">🌹</span>
+                    <h3 class="sabor-name">Doce de Leite Rosa</h3>
+                    <p class="sabor-desc">Massa tingida com beterraba, recheio de doce de leite artesanal e cobertura de
+                        açúcar rosé.</p>
+                    <span class="sabor-price">R$ 14,00</span>
+                </div>
+                <div class="sabor-card">
+                    <span class="sabor-emoji">🍓</span>
+                    <h3 class="sabor-name">Morango com Nutella</h3>
+                    <p class="sabor-desc">Recheio duplo de creme de morango e Nutella, coberto com açúcar cristal pink.
+                    </p>
+                    <span class="sabor-price">R$ 15,00</span>
+                </div>
+                <div class="sabor-card">
+                    <span class="sabor-tag" style="background:#3D1F08">Premium</span>
+                    <span class="sabor-emoji">☕</span>
+                    <h3 class="sabor-name">Capuccino</h3>
+                    <p class="sabor-desc">Massa aromatizada com café, recheio de creme capuccino, finalizado com cacau
+                        em pó.</p>
+                    <span class="sabor-price">R$ 16,00</span>
+                </div>
+                <div class="sabor-card">
+                    <span class="sabor-emoji">🥜</span>
+                    <h3 class="sabor-name">Paçoca Gourmet</h3>
+                    <p class="sabor-desc">Homenagem à festa junina: recheio cremoso de paçoca com amendoim torrado por
+                        cima.</p>
+                    <span class="sabor-price">R$ 13,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="processo">
+        <div class="processo-inner">
+            <div>
+                <p class="section-label" style="color: var(--caramel-light);">Como fazemos</p>
+                <h2 class="section-title reveal" style="color: var(--cream); margin-bottom:3rem;">Com
+                    cuidado<br /><em>em cada etapa</em></h2>
+                <div class="processo-steps">
+                    <div class="step" id="step1">
+                        <div class="step-num">1</div>
+                        <div class="step-body">
+                            <h3>Massa artesanal</h3>
+                            <p>Preparamos a massa fresca diariamente com farinha selecionada, ovos caipiras e manteiga
+                                de qualidade.</p>
+                        </div>
+                    </div>
+                    <div class="step" id="step2">
+                        <div class="step-num">2</div>
+                        <div class="step-body">
+                            <h3>Fritura no ponto certo</h3>
+                            <p>Fritamos em óleo de girassol a 180°C, monitorado para garantir a casca crocante perfeita.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step" id="step3">
+                        <div class="step-num">3</div>
+                        <div class="step-body">
+                            <h3>Cobertura generosa</h3>
+                            <p>Passamos imediatamente pelo açúcar e canela enquanto ainda quentes, para que a cobertura
+                                grude bem.</p>
+                        </div>
+                    </div>
+                    <div class="step" id="step4">
+                        <div class="step-num">4</div>
+                        <div class="step-body">
+                            <h3>Recheio na hora</h3>
+                            <p>Os recheios são injetados na hora do pedido, garantindo que cada churro chegue até você
+                                fresquinho.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="sobre-inner">
+            <div>
+                <p class="section-label" style="color: var(--caramel-light);">Quem somos</p>
+                <blockquote class="sobre-quote reveal">
+                    "Cada churro carrega <span>décadas de tradição</span> e o amor de uma família que vive para adoçar
+                    seu dia."
+                </blockquote>
+                <div class="sobre-stats reveal">
+                    <div class="stat-box">
+                        <div class="stat-num">1</div>
+                        <div class="stat-label">Ano de tradição</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num">1</div>
+                        <div class="stat-label">Cliente feliz (Deixe seu depoimento)</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num">12</div>
+                        <div class="stat-label">Sabores únicos</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-num">100%</div>
+                        <div class="stat-label">Feito na hora</div>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-right reveal">
+                <div class="sobre-img-placeholder"></div>
+                <div class="sobre-texto">
+                    <p>A história dos Churros da Maria começou em 2025, quando Maria decidiu compartilhar a receita da
+                        mãe. O que era apenas um agrado virou ponto de encontro.</p>
+                </div>
+                <a href="#contato" class="btn-primary" style="align-self: flex-start;">Entre em contato →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contato-inner">
+            <p class="section-label reveal">Fale conosco</p>
+            <h2 class="section-title reveal">Faça seu <em>pedido</em></h2>
+            <p class="section-sub reveal">Encomendas para festas, eventos e delivery. Responderemos em até 2 horas!</p>
+            <form class="contato-form reveal" onsubmit="handleSubmit(event)">
+                <input id="nome" type="text" placeholder="Seu nome" required />
+                <textarea id="mensagem" rows="4"
+                    placeholder="Conte o que você precisa: sabores, quantidade, data do evento..." required></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+            <div class="contato-info reveal">
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <strong>Endereço</strong>
+                    <span>Avenida Antonio Pedroso – Cidade Nova</span>
+                </div>
+                <div class="info-item">
+                    <span class="icon">⏰</span>
+                    <strong>Horário</strong>
+                    <span>Seg–Dom: 14h às 22h</span>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📱</span>
+                    <strong>WhatsApp</strong>
+                    <span>(19) 99924-5656</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span class="logo">Churros da Maria</span>
+        <p>Feito com amor e crocância</p>
+        <div class="footer-links">
+            <a href="#sabores">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </footer>
+
+    <script>
+        // CURSOR
+        const cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', e => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+
+        document.querySelectorAll('a, button, .sabor-card').forEach(el => {
+            el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
+            el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
+        });
+
+        window.addEventListener('scroll', () => {
+            document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        const pContainer = document.getElementById('particles');
+        for (let i = 0; i < 18; i++) {
+            const p = document.createElement('div');
+            p.className = 'sugar-particle';
+            p.style.cssText = `
+                left: ${10 + Math.random() * 80}%;
+                top: ${20 + Math.random() * 60}%;
+                width: ${2 + Math.random() * 5}px;
+                height: ${2 + Math.random() * 5}px;
+                animation-duration: ${3 + Math.random() * 6}s;
+                animation-delay: ${Math.random() * 5}s;
+            `;
+            pContainer.appendChild(p);
+        }
+
+        // SCROLL REVEAL copiado dos caba la
+        const revealObserver = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // STEPS reveal
+        const stepObserver = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    const stepId = parseInt(e.target.id.replace('step', '')) || 1;
+                    setTimeout(() => e.target.classList.add('visible'), stepId * 150);
+                }
+            });
+        }, { threshold: 0.2 });
+        document.querySelectorAll('.step').forEach(el => stepObserver.observe(el));
+
+        //WHATSAPP logica
+        function handleSubmit(e) {
+            e.preventDefault();
+
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+
+            const textoFormatado = `Olá! Me chamo ${nome} e gostaria de saber: ${mensagem}`;
+            const textoCodificado = encodeURIComponent(textoFormatado);
+
+            const numeroWhatsApp = "5519999245656";
+            const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${textoCodificado}`;
+            window.open(linkWhatsApp, '_blank');
+
+            const btn = e.target.querySelector('button');
+            btn.textContent = 'Mensagem enviada!';
+            btn.style.background = '#3D7A3A';
+
+            e.target.reset();
+
+            setTimeout(() => {
+                btn.textContent = 'Enviar mensagem';
+                btn.style.background = '#C4641A';
+            }, 3000);
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+
+</html>
